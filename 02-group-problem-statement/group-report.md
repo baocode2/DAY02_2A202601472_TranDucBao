@@ -3,299 +3,316 @@
 ## Thành viên nhóm
 
 | STT | Họ và tên | Mã học viên | Vai trò trong nhóm |
-|-----|-----------|-------------|--------------------|
-| 1   | Nguyễn Hoàng Hải | 2A202601426 | Trưởng nhóm |
-| 2   | Phạm Quốc Bảo | 2A202601502 | Thành viên |
-| 3   | Nguyễn Văn Thành | 2A202601030 | Thành viên |
-| 4   | Nguyễn Duy Khánh | 2A202601530 | Thành viên |
-| 5   | Ngô Xuân Ninh | 2A202601068 | Thành viên |
-| 6   | Trần Đức Bảo | 2A202601472 | Thành viên |
-| 7   | Trần Hoàng Long | 2A202601646 | Thành viên |
-| 8   | Phạm Công Đạt | 2A202601406 | Thành viên |
-| 9   | Nguyễn Sỹ Mạnh Cường | 2A202601040 | Thành viên |
-| 10  | Nguyễn Chiến Thắng | 2A202601734 | Thành viên |
+|-----|-----------|-------------|-------------------|
+| 1 | Nguyễn Hoàng Hải | 2A202601426 | Trưởng nhóm — Điều phối thảo luận & chốt quyết định cuối |
+| 2 | Phạm Quốc Bảo | 2A202601502 | Nghiên cứu & Kiểm chứng (Research & Validation) |
+| 3 | Nguyễn Văn Thành | 2A202601030 | Phó nhóm — Tổng hợp nội dung & quản lý file nộp bài |
+| 4 | Nguyễn Duy Khánh | 2A202601530 | Vẽ Workflow trước/sau (Current & Future State) |
+| 5 | Ngô Xuân Ninh | 2A202601068 | Soạn thảo Problem Statement v0 & v1 |
+| 6 | Trần Đức Bảo | 2A202601472 | Nghiên cứu & Kiểm chứng (Research & Validation) |
+| 7 | Trần Hoàng Long | 2A202601646 | Phản biện (Devil's Advocate — Challenge bài toán & metric) |
+| 8 | Phạm Công Đạt | 2A202601406 | Ghi chép & Thư ký (Meeting Notes & Nhật ký hội tụ) |
+| 9 | Nguyễn Sỹ Mạnh Cường | 2A202601040 | Phân tích & So sánh phương án (No AI / Rule / Workflow / Agent) |
+| 10 | Nguyễn Chiến Thắng | 2A202601734 | Trình bày & Kiểm tra checklist cuối (Presenter & QA) |
 
----
+> **Ghi chú phân công:** Mỗi người chịu trách nhiệm chính vai trò của mình nhưng tất cả tham gia thảo luận, pitch và challenge trong các Phase 3–6. Bản nộp nhóm là sản phẩm chung của toàn nhóm.
 
-# 02 — Group Problem Statement
-
-Case nhóm chọn: **Người mới tập gym gặp vấn đề về động tác & khối lượng bài tập, dẫn tới hệ quả sức khỏe xấu.**
-
-
-## Group Convergence
-
+## Phase 3 — Group Convergence: từ candidates về 1 (30')
+ 
+**Mục tiêu:** Không vote ngay. Đi qua 4 bước hội tụ: Trình bày top 3 → gom trùng/cluster → shortlist → chấm nhanh + đồng thuận chọn 1 candidate problem. Nhóm lúc này **chỉ chọn candidate problem**, chưa viết Problem Statement hoàn chỉnh.
+ 
+> *Lưu ý về dữ liệu:* nhóm ở đây chỉ có 3 candidate được phát triển đầy đủ (thay vì 9–12 của một nhóm 3–4 người), nên bảng bên dưới chỉ điền 3 dòng có dữ liệu thật; tên người đưa ra để trống theo yêu cầu.
+ 
 ### Bước 3.1 — Trình bày top 3
-
-| # | Người đưa ra | Candidate problem | Người gặp vấn đề | Điểm nghẽn | Dấu hiệu thật / số liệu |
+ 
+| # | Người đưa ra | Candidate problem | Người gặp vấn đề | Điểm nghẽn | Cảm nhận nhanh |
 |---|---|---|---|---|---|
-| 1 | Nguyễn Hoàng Hải *(trưởng nhóm)* | Tổng hợp tiến độ đồ án nhóm hằng tuần từ Trello/Discord/Github để báo cáo giảng viên | Sinh viên làm đồ án nhóm | Gom dữ liệu từ 3 nguồn rồi tự viết lại narrative | 45-60 phút/tuần, lặp lại suốt 12-14 tuần đồ án |
-| 2 | Phạm Quốc Bảo | Tìm lại tài liệu bài giảng cũ trên LMS/Drive khi ôn thi, nhiều file trùng tên | Sinh viên ôn thi | Search theo từ khoá kém hiệu quả | 15-20 phút/lần tìm, 3-4 lần/tuần thi cử, ~20% lần không tìm ra phải hỏi lại |
-| 3 | Nguyễn Văn Thành | Review code bạn cùng nhóm trước khi merge, đọc diff dài | Sinh viên làm dự án nhóm code | Đọc hiểu diff dài trước khi duyệt | 20-30 phút/lần review, 2-3 lần/tuần trong kỳ làm đồ án |
-| 4 | Nguyễn Duy Khánh | Theo dõi deadline bài tập lớn từ 4-5 môn song song, dễ quên/nhớ nhầm | Sinh viên | Không có nơi tổng hợp deadline tập trung | Từng trễ hạn nộp 1-2 lần/kỳ học vì quên/nhớ nhầm |
-| 5 | Ngô Xuân Ninh | Người mới tập gym không biết chọn bài tập phù hợp mục tiêu (giảm mỡ/tăng cơ) | Người mới tập gym | Chọn sai bài tập/nhóm cơ so với mục tiêu | 10-15 phút/buổi tự mò bài tập, 1-2 tháng đầu không thấy kết quả rõ |
-| 6 | Trần Đức Bảo | Người mới tập gym sai động tác & khối lượng tập, dẫn tới chấn thương | Người mới tập gym | Không ai kiểm tra form/khối lượng khi mới bắt đầu | 45-60 phút/buổi có rủi ro sai form; chấn thương có thể khiến nghỉ tập 1-3 tuần |
-| 7 | Trần Hoàng Long | Lên thực đơn ăn uống phù hợp lịch tập gym và ngân sách sinh viên | Người mới tập gym, sinh viên | Không biết cân đối dinh dưỡng theo mục tiêu tập | 20-30 phút/lần lên thực đơn, lặp lại mỗi tuần |
-| 8 | Phạm Công Đạt | Tổng hợp câu hỏi ôn tập từ nhiều nhóm chat môn học trước kỳ thi | Sinh viên ôn thi | Câu hỏi rải rác nhiều nhóm chat, khó tổng hợp | 30-40 phút/lần tổng hợp, lặp lại 2-3 lần/năm học (mỗi kỳ thi) |
-| 9 | Nguyễn Sỹ Mạnh Cường | Theo dõi chi tiêu cá nhân hằng tháng rải rác nhiều app/ví điện tử | Sinh viên | Dữ liệu chi tiêu phân mảnh nhiều nguồn | 20-30 phút/tháng tổng hợp, thường lệch 10-15% so với thực tế |
-| 10 | Nguyễn Chiến Thắng | Viết feedback cho bài bạn cùng lớp trong buổi peer-review, không có checklist chuẩn | Sinh viên | Feedback thiếu nhất quán, tiêu chí không rõ | 15-20 phút/bài feedback, 3-5 bài/đợt peer-review |
-
+| 1 | | Tài nguyên học tập, code mẫu và tài liệu nghiên cứu bị phân mảnh trên nhiều app, mỗi lần tìm mất 10–15 phút | Bản thân (Dev & Researcher) | Không có trung tâm định tuyến dữ liệu; tagging không đồng bộ giữa các app | Đau thật, xảy ra hằng ngày, nhưng giải pháp (RAG + vector DB) hơi nặng cho 1 buổi lab |
+| 2 | | Ngồi làm việc/học liên tục 3–4 tiếng trước máy tính, ít vận động, mỏi vai gáy cuối ngày | Bản thân | Thiếu cơ chế ngắt nhịp chủ động khi đang tập trung cao độ (hyper-focus) | Đau thật nhưng dễ giải quyết bằng công cụ có sẵn (Pomodoro/Stretchly) — ít "chất" AI |
+| 3 | | Người mới tập gym không biết mình đang tập sai form ở đâu, ngại chủ động hỏi PT/nhân viên để được chỉnh | Người mới tập gym (0–6 tháng kinh nghiệm) | Ngại chủ động hỏi (rào cản tâm lý) + thuê PT tốn 250K–1,5tr/buổi và phải chờ lịch (rào cản thực tế) | Có bằng chứng khảo sát thật (không phải đoán), actor cụ thể, tác động rõ (chấn thương, bỏ tập) |
+ 
 ### Bước 3.2 — Gom trùng / cluster
-
+ 
 | Cluster | Candidates included | Pattern chung | Ghi chú |
 |---|---|---|---|
-| A — Sức khỏe & tập luyện | #5 Ninh (chọn bài tập theo mục tiêu), #6 Bảo (form/khối lượng), #7 Long (dinh dưỡng theo lịch tập) | Người mới tập gym thiếu kiến thức nền để tự lên kế hoạch tập luyện/dinh dưỡng an toàn | 3/10 thành viên độc lập đề xuất — tín hiệu hội tụ mạnh nhất |
-| B — Báo cáo / tổng hợp tiến độ | #1 Hải (tiến độ đồ án nhóm) | Gom dữ liệu từ nhiều nguồn rồi viết lại cho người khác đọc | Chỉ 1/10 thành viên đề xuất; pattern giống ví dụ mẫu (Weekly Report) |
-| C — Tìm kiếm / tổng hợp tài liệu | #2 Quốc Bảo (tài liệu ôn thi), #8 Đạt (câu hỏi ôn tập) | Tìm đúng thông tin trong nhiều nguồn rời rạc | Phụ thuộc quyền truy cập dữ liệu (LMS, nhóm chat) |
-| D — Review / feedback | #3 Thành (review code), #10 Thắng (feedback peer-review) | Đọc bản của người khác và chỉ ra thiếu sót theo tiêu chí chưa chuẩn hoá | Phạm vi hẹp, giới hạn trong lớp/nhóm code |
-| E — Planning / theo dõi cá nhân | #4 Khánh (deadline), #9 Cường (chi tiêu) | Theo dõi trạng thái một việc kéo dài qua thời gian, dễ quên | Nhiều app có sẵn, khó tạo khác biệt |
-
+| A | Candidate 1 | Hiệu suất công việc trí óc (knowledge-work efficiency) — mất thời gian ở khâu "thao tác thông tin" quanh nghiên cứu/lập trình | Chỉ có 1 đại diện, không cần lọc thêm trong cluster này |
+| B | Candidate 2, Candidate 3 | Sức khỏe & vận động thể chất — cả hai đều liên quan đến cơ thể khi vận động/ít vận động | Khác actor và khác chất lượng bằng chứng: Candidate 2 chỉ là quan sát cá nhân, Candidate 3 có khảo sát thị trường thật (OnePoll, ACE, HFA, NEISS) → Candidate 3 đủ sức đại diện cho cả cluster B |
+ 
 ### Bước 3.3 — Shortlist
-
+ 
 | Candidate | Vì sao vào shortlist | Rủi ro / điều chưa rõ |
 |---|---|---|
-| Cluster A — Gym | 3/10 thành viên độc lập đề xuất, actor rõ (người mới tập gym), pain có hậu quả cụ thể (chấn thương) | Không ai trong nhóm là chuyên gia thể hình/y tế — cần boundary rõ, không để AI tự chẩn đoán |
-| Cluster D — Review/feedback | 2/10 thành viên đề xuất, workflow rõ (đọc bản nháp → chỉ ra thiếu sót), dễ hình dung before/after | Phạm vi hẹp (chỉ trong lớp/nhóm code), khó đo impact ngoài phạm vi lab |
-| Cluster C — Tìm kiếm tài liệu | 2/10 thành viên đề xuất, nhiều người khác cũng gặp dù không pitch, impact có thể rộng hơn | Phụ thuộc quyền truy cập dữ liệu LMS/nhóm chat, có thể ngoài tầm kiểm soát trong thời gian lab |
-
+| 1. Tài nguyên phân mảnh | Actor rõ, bottleneck cụ thể, đo được (thời gian tìm kiếm), vẽ before/after được | Phạm vi giải pháp (Agent + vector DB) có thể quá rộng cho 1 buổi lab |
+| 2. Ít vận động khi ngồi máy tính | Actor rõ, dễ làm trong lab (Rule/Workflow đơn giản) | "Pain" chưa có bằng chứng ngoài bản thân; impact (cảm giác đau mỏi) khó đo khách quan |
+| 3. Tập sai form ở gym | Actor cụ thể, bottleneck rõ (đúng 2 bước trong workflow), có evidence khảo sát thật, impact đo được qua baseline ngành | Nhóm chưa phải chuyên gia fitness/PT nên cần research thêm để hiểu đúng "form chuẩn"; giải pháp đầy đủ (Agent, camera real-time) khá phức tạp về kỹ thuật |
+ 
 ### Bước 3.4 — Score để đồng thuận
-
+ 
 | Candidate | Actor rõ | Workflow rõ | Pain có evidence | Impact đo được | Làm trong lab | So sánh R/W/A được | Nhóm hiểu domain | Tổng |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Cluster A — Gym | 5 | 4 | 5 | 4 | 4 | 5 | 4 | 31 |
-| Cluster D — Review/feedback | 4 | 4 | 3 | 3 | 4 | 4 | 3 | 25 |
-| Cluster C — Tìm kiếm tài liệu | 4 | 3 | 4 | 3 | 3 | 4 | 3 | 24 |
-
+| 1. Tài nguyên phân mảnh | 4 | 5 | 3 | 5 | 2 | 4 | 4 | 27/35 |
+| 2. Ít vận động | 4 | 5 | 2 | 3 | 5 | 3 | 5 | 27/35 |
+| 3. Tập sai form ở gym | 5 | 5 | 5 | 5 | 3 | 5 | 3 | **31/35** |
+ 
 Candidate nhóm chọn:
-
+ 
 ```text
-Cluster A — Người mới tập gym: sai động tác & khối lượng tập.
+Candidate 3 — Người mới tập gym không biết mình đang tập sai form ở đâu,
+và né tránh việc chủ động hỏi PT/nhân viên để được chỉnh trực tiếp.
 ```
-
+ 
 Vì sao chọn:
-
-- Có 3/10 thành viên độc lập nêu vấn đề liên quan, nên pain evidence mạnh nhất trong 3 candidate.
-- Actor cụ thể (người mới tập gym), hậu quả có thể quan sát/đo được (chấn thương nhẹ, tỷ lệ bỏ tập).
-- Có thể so sánh rõ Rule (bảng khối lượng chuẩn) / Workflow (AI cá nhân hoá + theo dõi tiến độ) / Agent (AI tự theo dõi và tự chẩn đoán) — mỗi mức có rủi ro khác biệt rõ ràng để tranh luận.
-- Nhiều thành viên có kinh nghiệm tập gym cá nhân nên nhóm hiểu domain tương đối tốt dù không phải chuyên gia.
-
+ 
+```text
+- Điểm cao nhất và đồng đều nhất trên 7 tiêu chí (31/35), không có tiêu chí nào dưới 3.
+- Là candidate duy nhất có "pain" được xác nhận bằng khảo sát thị trường thật
+  (OnePoll/Isopure n=2.000, ACE, HFA, NEISS) thay vì chỉ dựa vào quan sát cá nhân —
+  giảm rủi ro giải quyết một vấn đề tưởng tượng.
+- Bottleneck định vị chính xác vào 2 bước cụ thể trong workflow (bước 4 và 5),
+  không mơ hồ như "mệt mỏi" hay "thiếu thời gian".
+- Impact có baseline ngành để so sánh trước/sau (50% bỏ tập 6 tháng đầu,
+  22% bỏ ngay tháng đầu), nên success metric không phải số tự bịa.
+- Điểm yếu duy nhất (Làm trong lab: 3/5, Nhóm hiểu domain: 3/5) có thể xử lý
+  bằng cách thu hẹp MVP và research thêm ở Phase 4, không phải lý do loại bỏ.
+```
+ 
 Vì sao không chọn các candidate còn lại:
-
-- Cluster D (Review/feedback): workflow rõ nhưng phạm vi hẹp (chỉ trong lớp/nhóm code), khó thể hiện impact rộng ra ngoài buổi lab.
-- Cluster C (Tìm kiếm tài liệu): impact có thể rộng nhưng phụ thuộc quyền truy cập dữ liệu LMS/nhóm chat mà nhóm không kiểm soát được trong thời gian lab, dễ trượt sang scope quá lớn.
-
+ 
+```text
+- Candidate 1 (tài nguyên phân mảnh): điểm ngang Candidate 2 (27/35) nhưng yếu nhất
+  ở "Làm trong lab" (2/5) — cần hạ tầng RAG + vector DB, rủi ro không xong trong buổi.
+  Giữ lại làm backlog cho lab sau khi có nhiều thời gian hơn.
+- Candidate 2 (ít vận động): dễ làm nhất (Làm trong lab: 5/5) nhưng yếu nhất ở
+  "Pain có evidence" (2/5) và "Impact đo được" (3/5) — chỉ dựa cảm nhận cá nhân,
+  chưa có gì để so sánh trước/sau một cách khách quan. Phù hợp làm bài tập cá nhân
+  hơn là candidate đại diện cho cả nhóm.
+```
+ 
 Nếu có disagreement, nhóm xử lý thế nào:
-
+ 
 ```text
-3/10 thành viên độc lập đưa cùng một cluster (gym) nên không có bất đồng lớn về việc chọn candidate.
-Điểm cần thống nhất thêm: có nên gộp luôn "dinh dưỡng" (candidate #9) vào scope hay không.
-Nhóm quyết định thu hẹp trước: tập trung vào "động tác & khối lượng tập" (candidate #1, #8);
-phần dinh dưỡng (#9) để mở rộng sau nếu còn thời gian, tránh Problem Statement quá rộng.
+Ưu tiên candidate có điểm "Pain có evidence" và "Impact đo được" cao hơn khi các
+tiêu chí khác gần bằng nhau, vì hai tiêu chí này quyết định việc Problem Statement
+ở Phase 5 có đứng vững hay không. Nếu vẫn chia rẽ, dùng thời gian còn lại của
+Phase 4 (Quick Validation) làm trọng tài — candidate nào được validate thực tế
+tốt hơn thì đi tiếp.
 ```
-
+ 
 ---
-
-## Quick Validation
-
-Nhóm hỏi nhanh người mới tập gym quen biết (bao gồm một vài thành viên từng tự tập và bạn cùng ký túc xá/phòng gym trường).
-
-| Nguồn | Số người | Tín hiệu xác nhận | Tín hiệu phản bác | Nhóm sửa problem thế nào |
+ 
+## Phase 4 — Quick Validation + Research giải pháp (30')
+ 
+**Mục tiêu:** Kiểm tra nhanh pain có thật không, người khác có gặp không, đã có giải pháp nào tương tự chưa, và bài toán có nên giải bằng AI không.
+ 
+### Bước 4.1 — Quick validation
+ 
+**Kết quả:**
+ 
+| Nguồn | Số người / số mẫu | Tín hiệu xác nhận | Tín hiệu phản bác | Nhóm sửa problem thế nào |
 |---|---:|---|---|---|
-| Quick interview | 4 | 3/4 từng tập sai form ít nhất 1 bài (thường là squat/deadlift) trong tháng đầu; 2/4 từng đau lưng/vai phải nghỉ tập vài ngày | 1/4 có bạn tập cùng rành kỹ thuật nên được chỉnh form trực tiếp, không thấy cần thêm công cụ | Thu hẹp problem: không phải "mọi vấn đề khi tập gym", mà là "người mới tập KHÔNG có ai kèm cạnh (không thuê PT, không có bạn tập rành)" |
-| Mini poll trong lớp | 8 | 5/8 từng tập gym; 3/5 nói từng tập sai khối lượng hoặc form ít nhất 1 lần trong 2 tháng đầu | 2/5 nói chỉ cần xem video YouTube kỹ là đủ, không thấy cần AI | Thêm non-AI alternative rõ ràng (video hướng dẫn có sẵn + bảng khối lượng chuẩn) để so sánh công bằng với AI |
-
-Insight sau validation:
-
-```text
-Pain thật không nằm ở việc thiếu bài tập mẫu (có rất nhiều video có sẵn trên YouTube).
-Pain nằm ở việc không ai cá nhân hoá và kiểm tra lại form/khối lượng theo đúng thể trạng
-và tiến độ của từng người mới bắt đầu tập.
-```
-
-## Research giải pháp
-
-> Các link dưới đây cần nhóm tự bấm kiểm tra lại trước khi nộp (mình không thể duyệt web để xác nhận còn hoạt động tại thời điểm nộp bài).
-
+| Interview (Option A) | *chưa thực hiện* | — | — | Cần làm trong buổi lab: hỏi 2–3 người mới tập gym quen biết tại VN, vì toàn bộ khảo sát hiện có đều lấy mẫu ở Mỹ, chưa chắc đúng bối cảnh VN |
+| Survey / poll (dữ liệu thứ cấp) | 2.000 người Mỹ (OnePoll/Isopure) + mẫu khảo sát ACE | 50% người tập gym vẫn thấy "gymtimidation"; 21% né tránh gym vì không biết phải làm gì, thêm 3% nói thẳng "sợ phải hỏi" | Chưa tìm thấy tín hiệu phản bác trực tiếp trong khảo sát đã có | Giữ nguyên problem, nhưng gắn nhãn "cần verify tại VN" cho các con số này trước khi dùng làm success metric chính thức |
+| Log / review / ticket | Dữ liệu toàn quốc Mỹ (US CPSC — NEISS, 2020) | 1–2 triệu ca chấn thương liên quan hoạt động/thiết bị thể dục cần điều trị y tế mỗi năm; sai form là nguyên nhân hàng đầu được nhắc đến | Đây là dữ liệu thứ cấp cấp quốc gia, không phải log nội bộ — không đo được tỷ lệ chấn thương chỉ do "sai form không được sửa kịp" tách riêng khỏi các nguyên nhân khác | Dùng như bằng chứng bối cảnh (impact tối đa có thể xảy ra), không dùng làm baseline chính xác cho success metric |
+ 
+### Bước 4.2 — Research giải pháp đã có
+ 
 | Nguồn / tool / case | Link | Họ giải quyết phần nào? | Điểm mạnh | Khoảng trống / rủi ro | Bài học cho nhóm |
 |---|---|---|---|---|---|
-| Fitbod | https://fitbod.me/ | Tạo giáo án tập cá nhân hoá dựa trên thiết bị có sẵn & lịch sử tập | Tốt cho cá nhân hoá khối lượng/bài tập theo tiến độ | Không kiểm tra form thời gian thực, vẫn cần người tự đánh giá đúng/sai động tác | AI có thể tạo giáo án tốt, nhưng phần kiểm tra form vẫn cần con người/video tham chiếu |
-| Freeletics AI Coach | https://www.freeletics.com/ | AI điều chỉnh cường độ bài tập theo phản hồi người dùng | Điều chỉnh khối lượng/cường độ linh hoạt theo feedback | Chủ yếu bodyweight, không sâu về kỹ thuật tạ tự do (squat/deadlift) | Học pattern "AI điều chỉnh dựa trên feedback", nhưng cần bổ sung hướng dẫn kỹ thuật tạ riêng |
-| JEFIT | https://www.jefit.com/ | Thư viện bài tập kèm video hướng dẫn form + log tiến độ | Video demo động tác chi tiết theo từng nhóm cơ | Không có phản hồi cá nhân hoá real-time về form của chính người dùng | Dùng làm nguồn video chuẩn tham chiếu, chưa giải quyết việc "tự kiểm form của mình" |
-| Khuyến nghị ACSM (American College of Sports Medicine) cho người mới tập | https://www.acsm.org/ | Chuẩn khối lượng/tần suất tập an toàn cho người mới bắt đầu | Nguồn uy tín, dùng làm baseline rule | Không cá nhân hoá theo từng người, chỉ là khung chung | Dùng làm Rule nền cho giáo án ban đầu, AI chỉ tinh chỉnh thêm theo mục tiêu/thiết bị |
-
-Research takeaway:
-
+| Gymscore | https://www.gymscore.ai/ | Người dùng quay video khi tập squat/deadlift, hệ thống <cite index="20-1">đánh giá kỹ thuật theo nhiều chỉ số chuyển động, chấm điểm số và đưa gợi ý cải thiện</cite>. <cite index="21-1">Được huấn luyện trên hàng nghìn lượt tập và nhận diện hơn 2.500 bài tập khác nhau</cite> | Đã giải quyết trọn vẹn đúng bước 4–5 mà nhóm nhắm tới: phản hồi form gần như tức thời, không cần hỏi người thật. <cite index="21-1">Có hướng dẫn cụ thể cách đặt camera (lệch 30–60 độ so với hướng chính diện) để tăng độ chính xác phân tích</cite> | Là sản phẩm thương mại đã trưởng thành — nhóm khó cạnh tranh trực diện; cần tìm ngách riêng (ví dụ: tập trung người *mới* thay vì người tập lâu năm, giá rẻ hơn cho thị trường VN) | Xác nhận bài toán khả thi về mặt kỹ thuật (đã có người làm được ở mức thương mại) — nhóm nên định vị lại: làm phiên bản tối giản, giá hợp túi tiền, hướng riêng cho người mới tại VN, thay vì làm lại một Gymscore thu nhỏ |
+| QuickPose.ai (SDK) | https://quickpose.ai/lp/build-fitness-app/ | <cite index="4-1">Cung cấp SDK dựa trên MediaPipe để nhà phát triển tự thêm rep counter, timer và form feedback vào app của mình</cite>, tức là hạ tầng kỹ thuật, không phải sản phẩm end-user | <cite index="4-1">Tối ưu tốc độ xử lý camera feed, có thể mở rộng quy mô</cite> — giúp nhóm không cần tự xây pose estimation từ số 0 | Chỉ là dev tool — nhóm vẫn phải tự thiết kế UX, nội dung "form chuẩn" cho từng bài tập và logic phản hồi | Với phạm vi 1 buổi lab, nên dùng SDK có sẵn (QuickPose hoặc MediaPipe mở) làm lớp kỹ thuật nền, tập trung thời gian vào phần nhóm tạo khác biệt: nội dung phản hồi + trải nghiệm cho người mới |
+| Dự án mã nguồn mở (ví dụ *fitness-trainer-pose-estimation*) | https://github.com/yakupzengin/fitness-trainer-pose-estimation | <cite index="6-1">Dùng pose estimation thời gian thực để đếm rep, theo dõi form và đưa phản hồi tức thì cho các bài squat, hít đất, gập tay</cite> | Miễn phí, mã nguồn mở, có thể tham khảo kiến trúc (frontend stream video, backend Flask, exercise engine) | Là dự án cá nhân/side-project, chưa production-ready, chưa được kiểm thử trên nhiều người dùng thật | Có thể dùng làm tài liệu tham khảo kiến trúc kỹ thuật miễn phí cho prototype, nhưng không nên dùng thẳng cho pilot có người dùng thật mà chưa kiểm tra lại |
+ 
+**Nhận xét chung:** giới hạn kỹ thuật lớn nhất của cả ngành, kể cả các sản phẩm thương mại, là <cite index="14-1">ước lượng độ sâu từ một camera đơn (monocular) vốn là bài toán thiếu ràng buộc — sai số nhỏ trong ước lượng có thể dẫn tới kết quả độ sâu lệch đáng kể</cite>. Đây là rủi ro kỹ thuật thật, không phải giả định — nhóm nên đưa vào Boundary ở Phase 5/6 thay vì bỏ qua.
+ 
+Không dùng số liệu AI đưa ra nếu không verify được — toàn bộ số liệu trong bảng trên đều có link nguồn kèm theo để nhóm tự kiểm tra lại.
+ 
+---
+ 
+## Phase 5 — Workflow + Problem Statement (45')
+ 
+### Bước 5.1 — Current workflow bản nhóm
+ 
+| Bước | Actor | Input | Output | Thời gian/tần suất | Ghi chú |
+|---|---|---|---|---|---|
+| 1. Xem hướng dẫn | Người mới tập | Video YouTube/TikTok | Kiến thức lý thuyết về động tác | 10–20 phút, trước mỗi buổi tập mới | Tự học, không có phản hồi |
+| 2. Tự tập theo trí nhớ | Người mới tập | Trí nhớ từ video đã xem | Thực hiện động tác tại phòng gym | Mỗi buổi tập (2–4 lần/tuần) | Không ai kiểm tra |
+| 3. Tự soi & tự đánh giá | Người mới tập | Gương phòng gym / video tự quay | Nghi ngờ đúng/sai nhưng không chắc chắn | Vài giây–vài phút mỗi hiệp | Thiếu chuyên môn để tự chỉnh |
+| 4. Ngại chủ động hỏi | Người mới tập ↔ PT/nhân viên | Mong muốn được hỏi | Không hỏi, giữ nguyên form sai | Gần như mỗi buổi | **Bottleneck #1** — rào cản tâm lý |
+| 5. Thuê PT & chờ lịch | Người mới tập ↔ PT | Đặt lịch + 250K–1,5tr/buổi | Phản hồi chỉnh form (nếu quyết định thuê) | Theo lịch hẹn, không tức thời | **Bottleneck #2** — rào cản chi phí + thời gian |
+| 6. Lặp lại sai form | Người mới tập | Form sai chưa được sửa | Đau/chấn thương hoặc bỏ tập | Tích lũy qua nhiều buổi | Hệ quả cuối nếu không can thiệp ở bước 4–5 |
+ 
+Bottleneck chính:
+ 
 ```text
-Không nên để AI/agent tự chẩn đoán form hay chấn thương. Hướng hợp lý hơn là Workflow:
-dùng khung khối lượng chuẩn (ACSM) làm rule nền, AI cá nhân hoá giáo án theo mục tiêu/thiết bị,
-người tập tự đối chiếu video mẫu (JEFIT/YouTube) để tự kiểm form, và dừng lại tìm HLV/bác sĩ thật
-nếu có dấu hiệu bất thường.
+Bước 4 và 5: người mới không nhận được phản hồi chỉnh form nào đúng lúc,
+vì rào cản tâm lý (ngại chủ động hỏi) cộng rào cản thực tế (chi phí PT 250K–1,5tr/buổi
+và phải chờ đúng lịch hẹn mới có phản hồi).
 ```
-
-## Workflow before/after
-
-File nhóm nộp kèm (nếu vẽ lại bằng ảnh/Mermaid):
-
+ 
+### Bước 5.2 — Future workflow bản nhóm
+ 
 ```text
-02-group-problem-statement-workflow.png/pdf/md
+1. Xem hướng dẫn (giữ nguyên — người tự học)
+2. Tự tập theo trí nhớ (giữ nguyên — người tự làm)
+3. [Thay bước "tự soi" + "ngại hỏi"] → Quay clip ngắn ngay tại chỗ, gửi vào
+   AI Form-Check (Workflow: pose estimation + rule chấm theo từng bài tập)
+4. Nhận điểm form + gợi ý chỉnh sửa cụ thể trong <1 phút (AI/Workflow xử lý)
+5. [Boundary] Nếu điểm quá thấp nhiều lần liên tiếp, hoặc người dùng báo đau →
+   hệ thống dẫn về gặp PT/chuyên gia y tế thật (con người xử lý, không để AI tự quyết)
+6. Thuê PT & chờ lịch trở thành lựa chọn dự phòng cho case phức tạp,
+   không còn là con đường duy nhất
 ```
-
-Nội dung workflow:
-
-```text
-CURRENT STATE — 6 bước, rủi ro cao ở giữa buổi tập
-
-[1 Tự tìm bài tập trên YouTube/Google theo mục tiêu mơ hồ: 10-15']
-→ [2 Tự chọn khối lượng tạ/số reps theo cảm tính hoặc bắt chước người khác: 5']
-→ [3 Tập theo form tự đoán, không ai kiểm tra động tác: 45-60']  <-- bottleneck
-→ [4 Cảm thấy đau/mỏi bất thường sau buổi tập, tự tra Google: 15-20']
-→ [5 Nếu đau kéo dài: nghỉ tập hoặc đi khám (mất vài ngày đến vài tuần)]  <-- bottleneck
-→ [6 Quay lại tập nhưng vẫn lặp lại sai lầm cũ vì không ai chỉnh sửa]
-
-FUTURE STATE — 5 bước, kiểm soát rủi ro ngay từ đầu
-
-[1 Nhập mục tiêu, thể trạng, thiết bị có sẵn vào AI/app: 3']  -- Workflow step
-→ [2 AI tạo giáo án khối lượng/set-rep theo rule nền (ACSM) + mục tiêu cá nhân: 2']  -- Rule + AI
-→ [3 Tập theo giáo án, đối chiếu video mẫu để tự kiểm form: 45-60']
-→ [4 AI theo dõi log, cảnh báo nếu tăng khối lượng quá nhanh: tự động]  -- Workflow step
-→ [5 Người tập tự xác nhận trước khi tăng tạ; nếu có dấu hiệu đau bất thường thì dừng và hỏi HLV/bác sĩ thật]  -- Human boundary
-
-Fallback:
-AI gợi ý sai hoặc không chắc chắn về form/chấn thương → không tự làm theo AI,
-phải hỏi HLV thật hoặc chuyên gia y tế.
-
-Bottleneck mới:
-Bước 5 — người tập tự xác nhận. Đây là bottleneck chấp nhận được vì AI không được phép
-tự quyết định thay cho các vấn đề liên quan sức khỏe.
-```
-
+ 
 Before/after impact:
-
+ 
 | Metric | Trước | Sau kỳ vọng | Ghi chú |
 |---|---:|---:|---|
-| Effort chuẩn bị trước buổi tập | 15-20 phút/buổi (mò mẫm) | 3-5 phút/buổi | Nhờ giáo án đã cá nhân hoá sẵn |
-| Số bước | 6 | 5 | Gộp bước tìm bài tập + chọn khối lượng thành 1 bước có AI hỗ trợ |
-| Rủi ro sai form/khối lượng | Cao, không ai kiểm tra | Giảm nhờ giáo án chuẩn hoá + video đối chiếu | Vẫn còn rủi ro nếu người tập tự đối chiếu sai |
-| Bottleneck chính | Tự đoán form/khối lượng | Người tập tự xác nhận trước khi tăng tạ | Chuyển từ "không ai kiểm tra" sang "có checkpoint" |
-| Risk mới | Không có AI hallucination | Có rủi ro AI gợi ý sai lệch nếu input thể trạng không chính xác | Cần dừng lại hỏi HLV/bác sĩ thật khi nghi ngờ |
-
-## Problem Statement v0
-
+| Số bước | 6 | 4 | Gộp "tự soi" + "ngại hỏi" thành 1 bước quay clip gửi AI |
+| Thời gian nhận phản hồi | Vài ngày–vài tuần (chờ lịch PT), hoặc không bao giờ | Dưới 1 phút sau khi quay clip | |
+| Số bước thủ công / tự xử lý | 4/6 bước | 1–2 bước (quay clip, đọc gợi ý) | |
+| Bottleneck chính | Ngại hỏi + chi phí/lịch PT (con người) | Độ chính xác của AI khi chỉ dùng 1 góc camera (kỹ thuật) | Bottleneck chuyển từ rào cản con người sang giới hạn kỹ thuật |
+| Risk mới | — | AI chấm sai hoặc bỏ sót dấu hiệu chấn thương nếu thiếu boundary/fallback rõ | Cần người thật (PT) kiểm tra định kỳ |
+ 
+### Bước 5.3 — Problem Statement v0
+ 
 | Field | Nội dung |
 |---|---|
-| **Actor** | Người mới tập gym (sinh viên, người đi làm mới bắt đầu), chưa có kiến thức nền về động tác và khối lượng tập. |
-| **Workflow** | Tự tìm bài tập → tự chọn khối lượng/số reps theo cảm tính → tập không ai kiểm tra form → gặp đau/chấn thương → tự tra cứu hoặc đi khám → có thể bỏ tập. |
-| **Bottleneck** | Không có ai (người hoặc công cụ) kiểm tra form và khối lượng tập phù hợp ngay từ đầu, khiến sai lệch tích lũy qua nhiều buổi. |
-| **Impact** | Rủi ro chấn thương nhẹ-vừa trong 1-3 tháng đầu, phải nghỉ tập, tốn chi phí/thời gian, giảm động lực và tăng tỷ lệ bỏ tập. |
-| **Success Metric** | Giảm tỷ lệ tự báo cáo đau/khó chịu liên quan đến sai form trong 4 tuần đầu; tăng tỷ lệ người mới duy trì tập đều sau tháng đầu. |
-| **Boundary** | AI không tự chẩn đoán y tế, không thay thế HLV/bác sĩ khi có dấu hiệu chấn thương thật; chỉ hỗ trợ gợi ý giáo án khối lượng ban đầu và nhắc nhở dựa trên khuyến nghị chuẩn (ACSM). |
-
-## Bước 6.0 — Ma trận độ phù hợp với AI
-
+| **Actor** | Người mới tập gym, 0–6 tháng kinh nghiệm — giai đoạn quyết định gắn bó lâu dài hay bỏ cuộc |
+| **Workflow** | 6 bước: xem hướng dẫn → tự tập theo trí nhớ → tự soi/tự đánh giá → ngại chủ động hỏi → thuê PT & chờ lịch → lặp lại sai form |
+| **Bottleneck** | Bước 4 & 5: rào cản tâm lý (ngại hỏi) + rào cản thực tế (chi phí 250K–1,5tr/buổi và thời gian chờ lịch PT) |
+| **Impact** | 50% hội viên mới bỏ tập trong 6 tháng đầu, 22% bỏ ngay tháng đầu (nguồn Mỹ, cần verify tại VN); 1–2 triệu ca chấn thương/năm liên quan hoạt động thể dục tại Mỹ, sai form là nguyên nhân hàng đầu |
+| **Success Metric** | ≥80% buổi tập có ít nhất 1 phản hồi chỉnh form cụ thể; giảm tỷ lệ bỏ tập 3 tháng đầu so với mức nền ngành — con số mục tiêu cần xác nhận qua pilot thực tế |
+| **Boundary** | AI chỉ đưa gợi ý chỉnh form dựa trên hình ảnh/video, không chẩn đoán y tế; nếu điểm form thấp liên tục hoặc người dùng báo đau, hệ thống dẫn về gặp PT/chuyên gia y tế thật thay vì tự xử lý tiếp |
+ 
+---
+ 
+# Break (10')
+ 
+---
+ 
+## Phase 6 — Rule / Workflow / Agent + Decision (25')
+ 
+### Bước 6.0 — Ma trận độ phù hợp với AI
+ 
+Tự kiểm nhanh:
+ 
+| Câu hỏi | Trả lời của nhóm | Kết luận |
+|---|---|---|
+| Output có thể khác nhau mỗi lần mà vẫn chấp nhận được không? | Có — phản hồi chỉnh form có thể diễn đạt khác nhau, miễn đúng ý và đúng động tác | Độ mơ hồ cao |
+| Cần phối hợp 3+ bước hoặc 3+ nguồn dữ liệu không? | Có — nhận diện khớp, so sánh với chuẩn theo từng bài tập, sinh phản hồi ngôn ngữ tự nhiên, theo dõi tiến bộ theo thời gian | Độ phức tạp cao |
+| AI có cần tự quyết định bước tiếp theo không? | Có thể cần — ví dụ khi phát hiện dấu hiệu bất thường (điểm form thấp liên tục), hệ thống cần tự đề xuất dừng bài tập / chuyển sang gặp PT | Có thể cần Agent |
+ 
 Bài toán của nhóm nằm ở ô nào?
-
+ 
 ```text
-Độ mơ hồ trung bình-cao + Độ phức tạp cao
+Độ phức tạp cao × Độ mơ hồ cao
 ```
-
+ 
 Vì sao?
-
+ 
 ```text
-Độ mơ hồ: "form đủ tốt" không phải lúc nào cũng có một đáp án tuyệt đối đúng/sai —
-còn tùy thể trạng, mục tiêu, kinh nghiệm từng người, nên có nhiều cách trả lời chấp nhận được.
-
-Độ phức tạp: cần phối hợp nhiều thông tin (thể trạng, mục tiêu, thiết bị, tiến độ tích lũy
-qua nhiều buổi tập) — bước sau (tăng khối lượng tuần sau) phụ thuộc kết quả bước trước.
-
-Theo ma trận, ô này gợi ý "Agent có thể phù hợp, nhưng cần boundary, người thật kiểm tra
-và phương án quay về rất rõ". Vì đây là vấn đề sức khỏe, nhóm chọn hạ mức xuống Workflow
-thay vì Agent, để giữ người tập là người quyết định cuối cùng ở các bước rủi ro.
+Không có một "form đúng" duy nhất áp dụng cho mọi cơ địa — chấp nhận nhiều cách
+diễn đạt phản hồi miễn đúng ý (mơ hồ cao). Đồng thời cần phối hợp nhiều bước
+(nhận diện khớp → so sánh chuẩn theo từng bài tập → sinh ngôn ngữ phản hồi →
+theo dõi lịch sử) nên độ phức tạp cao. Theo ma trận, đây là ô mà "Agent có thể
+phù hợp, nhưng cần boundary, người thật kiểm tra và phương án quay về rất rõ" —
+tức là Agent không bị loại, nhưng cũng không được dùng nếu thiếu 3 điều kiện đó.
 ```
-
-## Rule / Workflow / Agent
-
+ 
+### Bước 6.1 — So sánh Rule / Workflow / Agent
+ 
 | Mức | Phương án cho bài toán nhóm | Khi nào đủ | Rủi ro | Chọn? |
 |---|---|---|---|---|
-| **Rule** | Bảng khối lượng/set-rep chuẩn theo trình độ (beginner template cố định theo ACSM) | Đủ nếu người tập có thể trạng khá đồng nhất, không có mục tiêu đặc biệt | Không cá nhân hoá theo tiến độ thực tế; không phù hợp nếu thể trạng đặc biệt | Không chọn làm toàn bộ, nhưng dùng làm rule nền cho giáo án ban đầu |
-| **Workflow** | Nhập thể trạng/mục tiêu → AI tạo giáo án dựa trên rule nền → theo dõi log tiến độ → AI gợi ý điều chỉnh khối lượng theo tuần → người tập tự xác nhận trước khi tăng tạ | Hợp vì input khá rõ (thể trạng, mục tiêu, thiết bị) và có chuẩn tham chiếu làm nền | Giáo án/gợi ý có thể sai nếu input không chính xác | Chọn |
-| **Agent** | AI tự động theo dõi liên tục qua camera/wearable, tự chẩn đoán chấn thương và tự điều chỉnh giáo án không cần xác nhận | Chỉ cần nếu chấp nhận AI tự quyết định các vấn đề liên quan sức khỏe | Rủi ro quá cao vì sai sót có thể dẫn tới chấn thương thật, không có ai chịu trách nhiệm | Chưa chọn |
-
+| **Rule** | Checklist tĩnh hiển thị sẵn trong app (vd: "đầu gối không vượt quá mũi chân" cho squat) | Chỉ đủ cho 1 bài tập rất cơ bản, không cá nhân hóa theo cơ địa | Không phát hiện lỗi thực tế của từng người, dễ bỏ sót | Không |
+| **Workflow** | Người dùng quay clip ngắn → chạy pose estimation (SDK có sẵn như QuickPose/MediaPipe) theo bộ rule cố định cho từng bài tập → xuất điểm + gợi ý theo template | Đủ cho MVP: 1–2 bài tập phổ biến (squat, plank), phản hồi theo kịch bản có sẵn | Cứng nhắc với biến thể cơ thể/góc quay; giới hạn kỹ thuật về ước lượng độ sâu từ 1 camera | ✅ (chọn cho pilot) |
+| **Agent** | Hệ thống tự nhận diện bài tập đang tập, tự chọn bộ tiêu chí phù hợp, tự sinh phản hồi theo từng lỗi cụ thể, tự đề xuất khi nào nên gặp PT thật | Cần khi mở rộng nhiều bài tập/mức độ và muốn phản hồi tự nhiên như PT thật | Chi phí phát triển/vận hành cao hơn; khó kiểm soát khi AI tự quyết định fallback (vd tự ý khuyên ngừng tập) | Chưa — để vòng sau |
+ 
 Mức chọn:
-
+ 
 ```text
-Workflow.
+Workflow (cho pilot trong phạm vi lab hôm nay), có lộ trình nâng lên Agent
+khi đã kiểm chứng nhu cầu và độ chính xác.
 ```
-
-Vì sao:
-
-- Input tương đối rõ (thể trạng, mục tiêu, thiết bị có sẵn).
-- Có chuẩn tham chiếu uy tín (ACSM) làm rule nền, giảm rủi ro AI tự bịa khối lượng tập.
-- AI chỉ hỗ trợ cá nhân hoá giáo án và nhắc nhở tiến độ; người tập vẫn tự xác nhận trước khi tăng khối lượng.
-- Chưa cần Agent vì rủi ro sức khỏe quá cao nếu để AI tự chẩn đoán/tự quyết định mà không có ai xác nhận lại.
-
-## Problem Statement v1
-
+ 
+Vì sao chọn:
+ 
+```text
+Rule có giải được 70-80% case không? Không — mỗi cơ địa, mỗi góc quay khác nhau,
+rule tĩnh sẽ bỏ sót nhiều lỗi thật. Workflow có đủ vì các bước khá rõ không? Có,
+với phạm vi thu hẹp (1-2 bài tập, dùng SDK pose estimation có sẵn thay vì tự xây),
+Workflow đã giải quyết đúng bottleneck (bước 4 & 5) mà không cần AI tự lập kế
+hoạch nhiều bước. Đây là phương án đơn giản nhất vẫn giải quyết được bottleneck.
+```
+ 
+Vì sao không chọn mức đơn giản hơn:
+ 
+```text
+Rule tĩnh không đủ vì bài toán có độ mơ hồ cao (không có 1 form chuẩn cho mọi
+cơ địa) — một checklist cố định sẽ báo sai hoặc bỏ sót phần lớn trường hợp thật,
+khiến người dùng mất niềm tin ngay từ lần dùng đầu tiên.
+```
+ 
+### Bước 6.2 — Problem Statement v1
+ 
 | Field | Nội dung |
 |---|---|
-| **Actor** | Người mới tập gym, chưa có kiến thức nền về động tác và khối lượng tập, không có PT/bạn tập rành kỹ thuật kèm cạnh. |
-| **Workflow** | Nhập thể trạng/mục tiêu → AI tạo giáo án dựa trên rule nền (ACSM) → tập và đối chiếu video mẫu để tự kiểm form → AI theo dõi log và gợi ý điều chỉnh khối lượng theo tuần → người tập tự xác nhận. |
-| **Bottleneck** | Không có checkpoint kiểm tra form/khối lượng phù hợp thể trạng ngay từ đầu, dẫn tới sai lệch tích lũy. |
-| **Impact** | Rủi ro chấn thương nhẹ-vừa trong 1-3 tháng đầu; giảm động lực, tăng tỷ lệ bỏ tập. |
-| **Success Metric** | Giảm tỷ lệ tự báo cáo đau/khó chịu do sai form trong 4 tuần đầu; tăng tỷ lệ duy trì tập đều sau tháng đầu. |
-| **Boundary** | AI không tự chẩn đoán y tế, không thay thế HLV/bác sĩ; chỉ gợi ý giáo án ban đầu và nhắc điều chỉnh dựa trên chuẩn tham chiếu. |
-| **AI intervention point** | Sau khi người tập nhập thể trạng/mục tiêu (trước buổi tập đầu tiên) và ở bước theo dõi tiến độ hằng tuần. |
-| **Mức chọn** | Workflow: rule nền (ACSM) cho giáo án ban đầu, AI cá nhân hoá và theo dõi tiến độ, người tập tự xác nhận trước khi tăng khối lượng. |
-| **Rủi ro & người thật kiểm tra** | Rủi ro: AI gợi ý sai lệch dẫn tới chấn thương. Người thật kiểm tra: người tập tự quan sát dấu hiệu bất thường; nếu đau kéo dài phải hỏi HLV/bác sĩ thật, AI không tự chẩn đoán thay. |
-
-## Final decision
-
+| **Actor** | Người mới tập gym, 0–6 tháng kinh nghiệm |
+| **Workflow** | Xem hướng dẫn → tự tập → quay clip ngắn → AI (Workflow) chấm form & phản hồi → (fallback) gặp PT nếu điểm thấp liên tục/báo đau |
+| **Bottleneck** | Ngại chủ động hỏi (tâm lý) + chi phí/lịch PT (250K–1,5tr/buổi, thực tế) |
+| **Impact** | 50% bỏ tập 6 tháng đầu, 22% bỏ ngay tháng đầu; 1–2 triệu ca chấn thương/năm tại Mỹ liên quan hoạt động thể dục |
+| **Success Metric** | ≥80% buổi tập có ít nhất 1 phản hồi chỉnh form cụ thể; giảm tỷ lệ bỏ tập 3 tháng đầu so với mức nền — cần xác nhận qua pilot |
+| **Boundary** | AI không chẩn đoán y tế; không tự ý khuyên dừng hẳn việc tập — chỉ gợi ý chỉnh động tác và dẫn về PT thật khi có dấu hiệu bất thường |
+| **AI intervention point** | Ngay sau bước 3 (tự soi) — thay vì "ngại hỏi", người dùng quay clip ngắn và AI (Workflow: pose estimation + rule chấm theo bài tập) phản hồi tức thì |
+| **Mức chọn** | Workflow (pilot) → Agent (mở rộng sau) |
+| **Rủi ro & người thật kiểm tra** | Rủi ro: AI chấm sai do hạn chế ước lượng độ sâu từ 1 camera; bỏ sót chấn thương tiềm ẩn. Người thật kiểm tra: 1 PT cộng tác review định kỳ mẫu phản hồi của AI (vd 1 lần/tuần) để hiệu chỉnh rule |
+ 
+### Bước 6.3 — Final decision
+ 
 | Câu hỏi | Yes / Not Yet / No | Ghi chú |
 |---|---|---|
-| Actor và workflow đã rõ chưa? | Yes | Actor cụ thể, workflow 5 bước rõ ràng |
-| Baseline và success metric đã đo được chưa? | Not Yet | Cần khảo sát thêm số lượng lớn hơn để có baseline tỷ lệ chấn thương đáng tin cậy |
-| Có data/input đủ dùng chưa? | Not Yet | Chưa có dữ liệu thật về thể trạng/tiến độ tập của người dùng thử nghiệm |
-| Nếu AI sai, hậu quả có chấp nhận được không? | Yes (có điều kiện) | Chấp nhận được nếu luôn có boundary dừng lại hỏi HLV/bác sĩ thật |
-| Có người review/owner vận hành không? | Not Yet | Nhóm chưa có ai đóng vai trò kiểm duyệt nội dung tập luyện (không phải chuyên gia) |
-| Có cách non-AI đơn giản hơn không? | Yes | Video hướng dẫn có sẵn (YouTube/JEFIT) + bảng khối lượng chuẩn (ACSM) |
-
+| Actor và workflow đã rõ chưa? | Yes | Actor cụ thể (0–6 tháng), workflow 6 bước đã vẽ rõ |
+| Baseline và success metric đã đo được chưa? | Not Yet | Có baseline ngành (Mỹ) nhưng chưa có baseline riêng cho thị trường VN; mục tiêu ≥80% là số tự đặt, cần pilot xác nhận |
+| Có data/input đủ dùng chưa? | Not Yet | Có SDK pose estimation sẵn (QuickPose/MediaPipe) nhưng chưa có bộ "form chuẩn" cho từng bài tập do nhóm tự xây/kiểm chứng |
+| Nếu AI sai, hậu quả có chấp nhận được không? | Not Yet | Cần boundary + cảnh báo fallback rõ ràng trước khi chấp nhận rủi ro AI chấm sai khiến người dùng chủ quan |
+| Có người review/owner vận hành không? | Not Yet | Cần tìm 1 PT sẵn sàng cộng tác review định kỳ — hiện chưa có |
+| Có cách non-AI đơn giản hơn không? | Yes | Thuê PT — nhưng đây chính là rào cản (chi phí + lịch) mà bài toán đang muốn giải, nên AI là phương án bổ sung chứ không thay thế hoàn toàn PT |
+ 
 Decision:
-
+ 
 ```text
-Go với scope nhỏ (pilot), có giám sát chặt.
+Not Yet
 ```
-
-Nếu Go, pilot nhỏ nhất là:
-
+ 
+Lý do:
+ 
 ```text
-- Dùng bảng khối lượng chuẩn (ACSM) làm rule nền, không để AI tự đề xuất khối lượng ngoài khung này.
-- Thử nghiệm với 5-10 người mới tập trong nhóm/bạn bè, theo dõi 2-4 tuần.
-- Người tập tự log lại: có đau/khó chịu bất thường không, có tự tin về form không.
-- Đo tỷ lệ tự báo cáo khó chịu/đau và mức độ tuân thủ giáo án so với nhóm đối chứng
-  (nhóm chỉ dùng video YouTube, không có AI cá nhân hoá).
+Bài toán có bằng chứng thị trường mạnh và đã được chứng minh khả thi về kỹ thuật
+(Gymscore, QuickPose, các dự án mã nguồn mở), nhưng nhóm còn 3 giả định quan
+trọng chưa validate: (1) pain có đúng với người mới tập tại VN không — mọi khảo
+sát hiện có đều lấy mẫu ở Mỹ, (2) độ chính xác thực tế của Workflow khi nhóm tự
+build với dữ liệu ít, (3) ai sẽ là người thật review chất lượng phản hồi AI.
+Go ngay khi chưa trả lời 3 câu này sẽ khiến success metric (≥80%) chỉ là số
+mong muốn, không phải cam kết có cơ sở.
 ```
-
+ 
 Nếu Not Yet, cần validate gì trước:
-
+ 
 ```text
-Cần khảo sát rộng hơn 12 người hiện tại (ít nhất 20-30 người mới tập) để có baseline
-tỷ lệ chấn thương/khó chịu đáng tin cậy hơn, và cần tìm ít nhất một người có chuyên môn
-thể hình (HLV, sinh viên ngành thể thao) để review nội dung giáo án trước khi thử nghiệm thật.
+1. Chạy Option A (2-3 interview thật với người mới tập gym tại VN) để xác nhận
+   pain xảy ra đúng bối cảnh địa phương, không chỉ đúng ở mẫu Mỹ.
+2. Build 1 prototype Workflow rút gọn (1 bài tập — squat, dùng SDK có sẵn) để
+   tự đo độ chính xác thật, trước khi cam kết con số ≥80%.
+3. Tìm 1 PT sẵn sàng cộng tác đóng vai "người thật kiểm tra" cho pilot.
 ```
-
+ 
 Nếu No-Go, nên làm gì thay AI:
-
+ 
 ```text
-Dùng bảng khối lượng chuẩn (ACSM) + danh sách video hướng dẫn form uy tín (JEFIT/kênh HLV thật)
-làm tài liệu tham khảo cố định, không cần cá nhân hoá bằng AI.
+Nếu sau khi validate mà pain không đủ mạnh tại VN hoặc không tìm được PT
+cộng tác, phương án non-AI là: làm một checklist form chuẩn dạng poster/infographic
+dán tại các trạm tập phổ biến (squat rack, bench), kèm QR code dẫn tới video
+hướng dẫn ngắn — chi phí thấp, không cần AI, giải quyết một phần bước 1-3
+của workflow dù không thay được phản hồi tức thời ở bước 4-5.
 ```
-
-Decision rationale:
-
-- Problem rõ, có tín hiệu hội tụ mạnh (3/10 thành viên độc lập đề xuất) và validate nhanh cho thấy pain có thật.
-- Có non-AI components rõ ràng (rule nền ACSM, video mẫu JEFIT) để so sánh công bằng.
-- AI chỉ can thiệp ở bước cá nhân hoá giáo án và nhắc nhở tiến độ, không tự chẩn đoán y tế.
-- Có boundary và fallback rõ ràng khi có dấu hiệu chấn thương thật.
-- Vẫn còn thiếu baseline dữ liệu đáng tin cậy và người có chuyên môn review, nên quyết định là "Go với scope nhỏ, giám sát chặt" thay vì Go toàn diện.
-
+ 
 ---
-
-*Group Report — Day 02 Lab*
